@@ -22,8 +22,12 @@ const Checkout = () => {
   );
   return (
     <main className="flex flex-row flex-wrap mx-auto max-w-7xl p-8">
-      <div className="flex flex-col gap-4 bg-slate-50 rounded-lg flex-1 p-2">
-        <div className="flex flex-col gap-4 divide-y-2 divide-white ">
+      <div className="flex flex-col gap-4 bg-white rounded-lg flex-1 p-2">
+      <div className="font-bold text-xl bg-white p-2 rounded-lg px-6 flex flex-row justify-between items-center gap-2">
+          <p>My Cart</p>
+          
+        </div>
+        <div className="flex flex-col bg-slate-50 rounded-md p-2 gap-4 divide-y-2 divide-white ">
           {cart.map((p: ProductData) => (
             <ProductCardInCart Item={p} />
           ))}

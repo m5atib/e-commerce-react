@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <CartProvider>
-      <main>
+      <main className="bg-slate-50">
         <Navbar />
         {outlet}
       </main>
