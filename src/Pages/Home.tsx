@@ -1,13 +1,20 @@
-import Navbar from '../Components/Navbar'
-import ShoppingList from './ShoppingList'
+import Navbar from "../Components/Navbar";
+import { useOutlet } from "react-router-dom";
+import { CartProvider } from "../Reducers/ShoppingContext";
+
+
 
 const Home = () => {
-  return (
-    <main>
-      <Navbar/>
-      <ShoppingList/>
-    </main>
-  )
-}
+  const outlet = useOutlet();
 
-export default Home
+  return (
+    <CartProvider>
+      <main>
+        <Navbar />
+        {outlet}
+      </main>
+    </CartProvider>
+  );
+};
+
+export default Home;
