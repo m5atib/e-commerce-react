@@ -1,6 +1,6 @@
-#[Demo](https://clean-e-commerce-netlfy.app)
+# [Demo](https://clean-e-commerce-netlfy.app)
 
-#Screenshots
+# Screenshots
 
 ![home](https://user-images.githubusercontent.com/64478989/208403786-41314f82-ac26-456f-b5de-57effc8a31e9.png)
 ![cart](https://user-images.githubusercontent.com/64478989/208403761-dce0ac4b-2645-438b-b173-d7e767f117b2.png)
