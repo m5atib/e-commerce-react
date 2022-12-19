@@ -1,4 +1,4 @@
-# [Demo](https://clean-e-commerce-netlfy.app)
+# [Demo](https://clean-e-commerce.netlfy.app)
 
 # Screenshots
 
